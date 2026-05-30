@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.uraneptus.letfishlove.mixin",
+  "package": "com.chinaex123.letfishlove.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "injectors": {
