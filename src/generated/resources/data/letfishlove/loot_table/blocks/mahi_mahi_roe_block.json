@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "letfishlove:mahi_mahi_roe"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "letfishlove:blocks/mahi_mahi_roe_block"
+}

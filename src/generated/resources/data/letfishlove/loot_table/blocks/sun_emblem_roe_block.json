@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "letfishlove:sun_emblem_roe"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "letfishlove:blocks/sun_emblem_roe_block"
+}

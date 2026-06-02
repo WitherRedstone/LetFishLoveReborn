@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "letfishlove:black_crappie_roe"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "letfishlove:blocks/black_crappie_roe_block"
+}

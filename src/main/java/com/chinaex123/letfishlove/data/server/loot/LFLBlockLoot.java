@@ -20,9 +20,7 @@ public class LFLBlockLoot extends BlockLootSubProvider {
 
     @Override
     protected @NotNull Iterable<Block> getKnownBlocks() {
-        return () -> LFLBlocks.BLOCKS.getEntries().stream()
-                .map(holder -> (Block) holder.get())
-                .iterator();
+        return RoeBlock.getAllBlocks();
     }
 
     @Override

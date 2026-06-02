@@ -1,6 +1,9 @@
 package com.chinaex123.letfishlove;
 
+import com.chinaex123.letfishlove.compat.tide.LFLTideCompat;
 import com.chinaex123.letfishlove.init.LFLCreativeTabs;
+import com.chinaex123.letfishlove.init.compat.tide.LFLTideBlocks;
+import com.chinaex123.letfishlove.init.compat.tide.LFLTideItems;
 import com.mojang.logging.LogUtils;
 import com.chinaex123.letfishlove.capabilities.FishBreedingCapAttacher;
 import com.chinaex123.letfishlove.init.LFLBlocks;
@@ -8,7 +11,9 @@ import com.chinaex123.letfishlove.init.LFLItems;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import org.slf4j.Logger;
 
 @Mod(LetFishLoveMod.MOD_ID)
@@ -21,10 +26,20 @@ public class LetFishLoveMod {
     }
 
     public LetFishLoveMod(IEventBus modEventBus, ModContainer modContainer) {
-        modEventBus.addListener(FishBreedingCapAttacher::onRegisterCapabilities);
+        modEventBus.addListener(RegisterCapabilitiesEvent.class, event -> {
+            FishBreedingCapAttacher.onRegisterCapabilities(event);
+            if (ModList.get().isLoaded("tide")) {
+                LFLTideCompat.registerTideCapabilities(event);
+            }
+        });
 
         LFLBlocks.BLOCKS.register(modEventBus);
         LFLItems.ITEMS.register(modEventBus);
         LFLCreativeTabs.CREATIVE_MODE_TAB.register(modEventBus);
+
+        if (ModList.get().isLoaded("tide")) {
+            LFLTideBlocks.BLOCKS.register(modEventBus);
+            LFLTideItems.ITEMS.register(modEventBus);
+        }
     }
 }

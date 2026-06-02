@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/frogspawn",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "letfishlove:block/compat/tide/swordfish_roe_block",
+    "texture": "letfishlove:block/compat/tide/swordfish_roe_block"
+  }
+}

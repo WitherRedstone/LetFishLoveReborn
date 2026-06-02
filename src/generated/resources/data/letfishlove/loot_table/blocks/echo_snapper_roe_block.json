@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "letfishlove:echo_snapper_roe"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "letfishlove:blocks/echo_snapper_roe_block"
+}

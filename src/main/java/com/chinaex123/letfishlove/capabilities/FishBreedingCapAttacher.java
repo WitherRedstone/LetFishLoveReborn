@@ -2,6 +2,7 @@ package com.chinaex123.letfishlove.capabilities;
 
 import com.chinaex123.letfishlove.LetFishLoveMod;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.animal.WaterAnimal;
 import net.neoforged.neoforge.capabilities.EntityCapability;
@@ -12,6 +13,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 import java.util.stream.Stream;
+
+import static com.mojang.text2speech.Narrator.LOGGER;
 
 /**
  * 鱼类繁殖能力附着器，负责注册、管理和获取鱼类的繁殖能力数据。
@@ -48,6 +51,24 @@ public class FishBreedingCapAttacher {
                         CAPABILITY_CACHE.computeIfAbsent(entity.getUUID(), uuid -> new FishBreedingCap(entity))
                 )
         );
+    }
+
+    /**
+     * 批量注册模组鱼的能力。
+     * @param event 能力注册事件
+     * @param fishIds 鱼的实体ID数组
+     */
+    @SuppressWarnings("unchecked")
+    public static void registerModFishCapabilities(RegisterCapabilitiesEvent event, String[] fishIds) {
+        for (String fishId : fishIds) {
+            EntityType.byString(fishId).ifPresentOrElse(fishType -> {
+                if (Entity.class.isAssignableFrom(fishType.getBaseClass())) {
+                    event.registerEntity(FISH_BREEDING_CAPABILITY, (EntityType<? extends WaterAnimal>) fishType, (entity, context) ->
+                            CAPABILITY_CACHE.computeIfAbsent(entity.getUUID(), uuid -> new FishBreedingCap(entity))
+                    );
+                }
+            }, () -> {});
+        }
     }
 
     /**

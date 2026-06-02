@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "letfishlove:item/compat/tide/slimy_salmon_roe"
+  }
+}

@@ -90,7 +90,10 @@ configurations {
 }
 
 dependencies {
-    //implementation "curse.maven:farmers-delight-398521:8083481"
+    localRuntime "curse.maven:cloth-config-348521:5729127"
+    localRuntime "curse.maven:tide-884685:7586281"
+
+    localRuntime "maven.modrinth:item-icon-exporter:1.0.1-NeoForge-1.21.1"
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {

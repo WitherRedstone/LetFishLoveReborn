@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "tide:great_white_shark",
+      "required": false
+    },
+    {
+      "id": "tide:manta_ray",
+      "required": false
+    },
+    {
+      "id": "tide:darkness_eater",
+      "required": false
+    },
+    {
+      "id": "tide:shadow_shark",
+      "required": false
+    },
+    {
+      "id": "tide:mantyvern",
+      "required": false
+    },
+    {
+      "id": "tide:snatcher_squid",
+      "required": false
+    },
+    {
+      "id": "tide:dragon_fish",
+      "required": false
+    },
+    {
+      "id": "tide:alpha_fish",
+      "required": false
+    },
+    {
+      "id": "tide:coelacanth",
+      "required": false
+    },
+    {
+      "id": "tide:chasm_eel",
+      "required": false
+    },
+    {
+      "id": "tide:cave_eel",
+      "required": false
+    },
+    {
+      "id": "tide:cave_crawler",
+      "required": false
+    },
+    {
+      "id": "tide:pentapus",
+      "required": false
+    }
+  ]
+}

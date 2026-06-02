@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "letfishlove:item/compat/tide/great_white_shark_roe"
+  }
+}

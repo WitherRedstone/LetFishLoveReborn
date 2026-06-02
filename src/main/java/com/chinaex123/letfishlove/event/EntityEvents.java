@@ -35,8 +35,6 @@ public class EntityEvents {
      */
     @SubscribeEvent
     public static void onEntityInteract(PlayerInteractEvent.EntityInteract event) {
-        if (!event.getLevel().isClientSide()) return;
-
         Player player = event.getEntity(); // 获取玩家
         InteractionHand hand = event.getHand(); // 获取交互的手
         ItemStack itemInHand = player.getItemInHand(hand); // 获取玩家手中的物品
@@ -53,10 +51,13 @@ public class EntityEvents {
                 FishBreedingCap fishCap = FishBreedingUtil.getFishCap(fish);
                 // 检查鱼类是否能够进入求爱模式
                 if (fishCap.canFallInLove()) {
-                    // 设置鱼类进入求爱模式
+                    // 设置鱼类进入求爱模式（内部会根据端侧决定：客户端播放粒子，服务端设置数据）
                     fishCap.setInLove(fish, player, level);
-                    // 消耗玩家手中的一个物品
-                    FishBreedingUtil.usePlayerItem(player, itemInHand);
+
+                    // 只在服务端消耗玩家手中的一个物品
+                    if (!level.isClientSide()) {
+                        FishBreedingUtil.usePlayerItem(player, itemInHand);
+                    }
 
                     event.setCancellationResult(InteractionResult.sidedSuccess(level.isClientSide()));
                     event.setCanceled(true);

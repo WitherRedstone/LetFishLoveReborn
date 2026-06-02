@@ -99,7 +99,7 @@ public class FishBreedingCap implements INBTSerializable<CompoundTag> {
      */
     public void setInLove(WaterAnimal fish, @Nullable Player pPlayer, Level level) {
         RandomSource random = level.getRandom();
-        // 设置求爱倒计时为600刻（30秒）
+        // 设置求爱倒计时为600刻
         this.setInLoveInt(600, true);
         if (pPlayer != null) {
             this.setLoveCauseUUID(pPlayer.getUUID(), true);

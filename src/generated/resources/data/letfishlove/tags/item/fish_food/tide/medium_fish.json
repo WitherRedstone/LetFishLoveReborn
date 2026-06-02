@@ -1,0 +1,156 @@
+{
+  "values": [
+    {
+      "id": "tide:rainbow_trout",
+      "required": false
+    },
+    {
+      "id": "tide:largemouth_bass",
+      "required": false
+    },
+    {
+      "id": "tide:walleye",
+      "required": false
+    },
+    {
+      "id": "tide:ocean_perch",
+      "required": false
+    },
+    {
+      "id": "tide:flounder",
+      "required": false
+    },
+    {
+      "id": "tide:catfish",
+      "required": false
+    },
+    {
+      "id": "tide:mirage_catfish",
+      "required": false
+    },
+    {
+      "id": "tide:zombie_fish",
+      "required": false
+    },
+    {
+      "id": "tide:flopper",
+      "required": false
+    },
+    {
+      "id": "tide:carp",
+      "required": false
+    },
+    {
+      "id": "tide:sleepy_carp",
+      "required": false
+    },
+    {
+      "id": "tide:pale_clubfish",
+      "required": false
+    },
+    {
+      "id": "tide:voidseeker",
+      "required": false
+    },
+    {
+      "id": "tide:mackerel",
+      "required": false
+    },
+    {
+      "id": "tide:snook",
+      "required": false
+    },
+    {
+      "id": "tide:red_snapper",
+      "required": false
+    },
+    {
+      "id": "tide:pike",
+      "required": false
+    },
+    {
+      "id": "tide:magic_carp",
+      "required": false
+    },
+    {
+      "id": "tide:deep_grouper",
+      "required": false
+    },
+    {
+      "id": "tide:glowfish",
+      "required": false
+    },
+    {
+      "id": "tide:slimy_salmon",
+      "required": false
+    },
+    {
+      "id": "tide:chorus_cod",
+      "required": false
+    },
+    {
+      "id": "tide:aquathorn",
+      "required": false
+    },
+    {
+      "id": "tide:windbass",
+      "required": false
+    },
+    {
+      "id": "tide:saturn_cuttlefish",
+      "required": false
+    },
+    {
+      "id": "tide:marstilus",
+      "required": false
+    },
+    {
+      "id": "tide:volcano_tuna",
+      "required": false
+    },
+    {
+      "id": "tide:obsidian_pike",
+      "required": false
+    },
+    {
+      "id": "tide:tuna",
+      "required": false
+    },
+    {
+      "id": "tide:mahi_mahi",
+      "required": false
+    },
+    {
+      "id": "tide:arapaima",
+      "required": false
+    },
+    {
+      "id": "tide:sturgeon",
+      "required": false
+    },
+    {
+      "id": "tide:dog_fish",
+      "required": false
+    },
+    {
+      "id": "tide:sand_tiger_shark",
+      "required": false
+    },
+    {
+      "id": "tide:bull_shark",
+      "required": false
+    },
+    {
+      "id": "tide:sailfish",
+      "required": false
+    },
+    {
+      "id": "tide:swordfish",
+      "required": false
+    },
+    {
+      "id": "tide:blazing_swordfish",
+      "required": false
+    }
+  ]
+}

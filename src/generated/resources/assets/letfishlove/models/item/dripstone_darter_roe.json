@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "letfishlove:item/compat/tide/dripstone_darter_roe"
+  }
+}
