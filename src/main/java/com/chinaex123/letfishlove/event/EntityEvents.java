@@ -51,7 +51,7 @@ public class EntityEvents {
                 FishBreedingCap fishCap = FishBreedingUtil.getFishCap(fish);
                 // 检查鱼类是否能够进入求爱模式
                 if (fishCap.canFallInLove()) {
-                    // 设置鱼类进入求爱模式（内部会根据端侧决定：客户端播放粒子，服务端设置数据）
+                    // 设置鱼类进入求爱模式
                     fishCap.setInLove(fish, player, level);
 
                     // 只在服务端消耗玩家手中的一个物品
