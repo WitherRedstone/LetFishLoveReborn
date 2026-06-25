@@ -4,107 +4,413 @@
     "letfishlove:pufferfish_roe_block",
     "letfishlove:salmon_roe_block",
     "letfishlove:tropical_fish_roe_block",
-    "letfishlove:tuna_roe_block",
-    "letfishlove:mackerel_roe_block",
-    "letfishlove:snook_roe_block",
-    "letfishlove:angelfish_roe_block",
-    "letfishlove:mahi_mahi_roe_block",
-    "letfishlove:sailfish_roe_block",
-    "letfishlove:swordfish_roe_block",
-    "letfishlove:manta_ray_roe_block",
-    "letfishlove:aquathorn_roe_block",
-    "letfishlove:rainbow_trout_roe_block",
-    "letfishlove:brook_trout_roe_block",
-    "letfishlove:largemouth_bass_roe_block",
-    "letfishlove:smallmouth_bass_roe_block",
-    "letfishlove:white_crappie_roe_block",
-    "letfishlove:black_crappie_roe_block",
-    "letfishlove:yellow_perch_roe_block",
-    "letfishlove:carp_roe_block",
-    "letfishlove:pike_roe_block",
-    "letfishlove:guppy_roe_block",
-    "letfishlove:bluegill_roe_block",
-    "letfishlove:catfish_roe_block",
-    "letfishlove:walleye_roe_block",
-    "letfishlove:arapaima_roe_block",
-    "letfishlove:mirage_catfish_roe_block",
-    "letfishlove:sand_tiger_shark_roe_block",
-    "letfishlove:slimy_salmon_roe_block",
-    "letfishlove:frostbite_flounder_roe_block",
-    "letfishlove:sturgeon_roe_block",
-    "letfishlove:blossom_bass_roe_block",
-    "letfishlove:spore_stalker_roe_block",
-    "letfishlove:mooneye_roe_block",
-    "letfishlove:bull_shark_roe_block",
-    "letfishlove:ocean_perch_roe_block",
-    "letfishlove:red_snapper_roe_block",
-    "letfishlove:flounder_roe_block",
-    "letfishlove:anchovy_roe_block",
-    "letfishlove:devils_hole_pupfish_roe_block",
-    "letfishlove:midas_fish_roe_block",
-    "letfishlove:incandescent_larva_roe_block",
-    "letfishlove:bedrock_bug_roe_block",
-    "letfishlove:sleepy_carp_roe_block",
-    "letfishlove:blue_neonfish_roe_block",
-    "letfishlove:judgment_fish_roe_block",
-    "letfishlove:deep_blue_roe_block",
-    "letfishlove:nephrosilu_roe_block",
-    "letfishlove:neptune_koi_roe_block",
-    "letfishlove:pluto_snail_roe_block",
-    "letfishlove:sun_emblem_roe_block",
-    "letfishlove:saturn_cuttlefish_roe_block",
-    "letfishlove:marstilus_roe_block",
-    "letfishlove:uranias_pisces_roe_block",
-    "letfishlove:great_white_shark_roe_block",
-    "letfishlove:shooting_starfish_roe_block",
-    "letfishlove:coelacanth_roe_block",
-    "letfishlove:cave_eel_roe_block",
-    "letfishlove:cave_crawler_roe_block",
-    "letfishlove:deep_grouper_roe_block",
-    "letfishlove:shadow_snapper_roe_block",
-    "letfishlove:glowfish_roe_block",
-    "letfishlove:anglerfish_roe_block",
-    "letfishlove:abyss_angler_roe_block",
-    "letfishlove:iron_tetra_roe_block",
-    "letfishlove:lapis_lanternfish_roe_block",
-    "letfishlove:crystal_shrimp_roe_block",
-    "letfishlove:dripstone_darter_roe_block",
-    "letfishlove:luminescent_jellyfish_roe_block",
-    "letfishlove:crystalline_carp_roe_block",
-    "letfishlove:gilded_minnow_roe_block",
-    "letfishlove:bedrock_tetra_roe_block",
-    "letfishlove:chasm_eel_roe_block",
-    "letfishlove:echo_snapper_roe_block",
-    "letfishlove:windbass_roe_block",
-    "letfishlove:snatcher_squid_roe_block",
-    "letfishlove:voidseeker_roe_block",
-    "letfishlove:dragon_fish_roe_block",
-    "letfishlove:vengeance_roe_block",
-    "letfishlove:pentapus_roe_block",
-    "letfishlove:darkness_eater_roe_block",
-    "letfishlove:shadow_shark_roe_block",
-    "letfishlove:alpha_fish_roe_block",
-    "letfishlove:magma_mackerel_roe_block",
-    "letfishlove:ember_koi_roe_block",
-    "letfishlove:ash_perch_roe_block",
-    "letfishlove:obsidian_pike_roe_block",
-    "letfishlove:volcano_tuna_roe_block",
-    "letfishlove:inferno_guppy_roe_block",
-    "letfishlove:warped_guppy_roe_block",
-    "letfishlove:crimson_fangjaw_roe_block",
-    "letfishlove:soulscale_roe_block",
-    "letfishlove:witherfin_roe_block",
-    "letfishlove:blazing_swordfish_roe_block",
-    "letfishlove:pale_clubfish_roe_block",
-    "letfishlove:amber_rockfish_roe_block",
-    "letfishlove:enderfin_roe_block",
-    "letfishlove:chorus_cod_roe_block",
-    "letfishlove:ender_glider_roe_block",
-    "letfishlove:endergazer_roe_block",
-    "letfishlove:violet_carp_roe_block",
-    "letfishlove:red_40_roe_block",
-    "letfishlove:dutchman_sock_roe_block",
-    "letfishlove:elytrout_roe_block",
-    "letfishlove:mantyvern_roe_block"
+    {
+      "id": "letfishlove:tuna_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:mackerel_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:snook_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:angelfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:mahi_mahi_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:sailfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:swordfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:manta_ray_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:aquathorn_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:rainbow_trout_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:brook_trout_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:largemouth_bass_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:smallmouth_bass_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:white_crappie_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:black_crappie_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:yellow_perch_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:carp_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:pike_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:guppy_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:bluegill_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:catfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:walleye_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:arapaima_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:mirage_catfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:sand_tiger_shark_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:slimy_salmon_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:frostbite_flounder_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:sturgeon_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:blossom_bass_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:spore_stalker_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:mooneye_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:bull_shark_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:ocean_perch_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:red_snapper_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:flounder_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:anchovy_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:devils_hole_pupfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:midas_fish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:incandescent_larva_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:bedrock_bug_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:sleepy_carp_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:blue_neonfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:judgment_fish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:deep_blue_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:nephrosilu_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:neptune_koi_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:pluto_snail_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:sun_emblem_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:saturn_cuttlefish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:marstilus_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:uranias_pisces_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:great_white_shark_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:shooting_starfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:coelacanth_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:cave_eel_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:cave_crawler_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:deep_grouper_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:shadow_snapper_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:glowfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:anglerfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:abyss_angler_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:iron_tetra_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:lapis_lanternfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:crystal_shrimp_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:dripstone_darter_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:luminescent_jellyfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:crystalline_carp_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:gilded_minnow_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:bedrock_tetra_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:chasm_eel_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:echo_snapper_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:windbass_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:snatcher_squid_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:voidseeker_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:dragon_fish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:vengeance_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:pentapus_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:darkness_eater_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:shadow_shark_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:alpha_fish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:magma_mackerel_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:ember_koi_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:ash_perch_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:obsidian_pike_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:volcano_tuna_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:inferno_guppy_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:warped_guppy_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:crimson_fangjaw_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:soulscale_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:witherfin_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:blazing_swordfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:pale_clubfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:amber_rockfish_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:enderfin_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:chorus_cod_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:ender_glider_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:endergazer_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:violet_carp_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:red_40_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:dutchman_sock_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:elytrout_roe_block",
+      "required": false
+    },
+    {
+      "id": "letfishlove:mantyvern_roe_block",
+      "required": false
+    }
   ]
 }
